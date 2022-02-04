@@ -1,6 +1,6 @@
 <?php
 
-namespace gertex\banip;
+namespace gertex\yii2banip;
 
 use Yii;
 use yii\base\BootstrapInterface;
