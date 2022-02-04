@@ -1,0 +1,26 @@
+{
+  "name": "gertex/yii2-ban-ip",
+  "description": "Extension to black IP addresses to access the system after x number of 404 errors within x minutes",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Hinderberger",
+      "email": "andy@gertex.us",
+      "homepage": "https://gertex.us",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "gertex\\yii2banip\\": ""
+    }
+  }
+}
